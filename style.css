@@ -338,9 +338,6 @@ h1{
     text-align: left;
     margin-top: -73px;
 }
-.block-form{
-    margin-top: 350px;
-}
 .wrap-content{
     max-width: 1024px;
     margin: auto;
@@ -375,7 +372,6 @@ footer  ul a{
     color: white;
     font-size: 22px;
     padding-bottom: 21px;
-
 }
 footer  ul li{
     list-style: none;
@@ -427,8 +423,6 @@ footer  ul li a:hover{
     margin-right: 15px;
     align-self: flex-end;
 }
-.user-review_block__icon img{
-}
 .user-review_block_text{
     line-height: 24px;
     color: #1F2041;
@@ -475,6 +469,9 @@ footer  ul li a:hover{
 
 
 @media all and (max-width: 1024px){
+    .wrap-baner{
+        background-position: center;
+    }
     .block-text {
         width: 47%;    
     }
@@ -619,10 +616,7 @@ footer  ul li a:hover{
       .return {
         width: 20%;
     }
-
-}
-    
-
+} 
 .breadcrumbs {
     padding-top: 75px;
 }
