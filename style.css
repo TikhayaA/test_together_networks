@@ -1,6 +1,17 @@
 body{
     margin: 0;
 }
+.blackout{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
 .display-row{
     display: flex;
     flex-direction: row;
@@ -68,6 +79,19 @@ main{
     padding-bottom: 40px;
     background: #fcfefd;
 }
+.form-log-wrap{
+    position: fixed;
+    top: 50%;
+    right: 31%;
+    width: 35%;
+    margin-left: 60px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.7);
+    display: none;
+    z-index: 11;
+}
+
 .wrap-baner{
     background-image: url(img/main/blackdatingapps.jpg);
     padding: 150px 0 78px;

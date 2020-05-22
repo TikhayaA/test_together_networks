@@ -30,4 +30,14 @@ $(document).ready(function(){
     }
     returnLink[0].addEventListener("click", closeForm);
 
+
+    let openLog = document.getElementsByClassName("openLogin");
+    let formLog = document.getElementsByClassName("form-log-wrap");
+    let blackout = document.getElementsByClassName("blackout");
+    function openFormLog(){
+        formLog[0].style.display = 'block';
+        blackout[0].style.display = 'block';
+    }
+    openLog[0].addEventListener("click", openFormLog);
+
 });
