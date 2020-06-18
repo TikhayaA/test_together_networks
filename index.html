@@ -16,16 +16,18 @@
   <script src="main.js"></script>
 </head>
 <body>
+	<div class="blackout"></div>
     <header class="display-row">
         <div class="logo"><a href="#"><img src="img/main/logo.png" alt="logo BlackCupid Black Dating and Singles"></a></div>
-        <nav>
+        <nav class="desctop-nav">
             <ul class="display-row">
                 <li ><a href="index.html">Home</a></li>
 				<li><a href="About_us.html">About us</a></li>
 				<li><a href="help.html">Help</a></li>
                 <li class="openLogin"><a href="#">Log in</a></li>
             </ul>
-        </nav>
+		</nav>
+		<div class="mobile-nav"><img src="img/main/nav.png" alt=""></div>
 	</header>
 	<div class="wrap-baner">
 		<div class="block-text">
@@ -199,13 +201,12 @@
 		</div>
 	</div> 
     <main>
-		<div class="blackout"></div>
 		<section class="form-log-wrap">
-			<label for="email"><input id="email" type="text">email</label>
-			<label for="password"><input id="password" type="text">password</label>
+			 <div class="form-log-close">х</div>
+			<label for="email"><input id="email" type="email" autocomplete="email" required placeholder="Введите email" pattern="[^А-ЯЁ][a-z]"[\@gmail.com]>email</label>
+			<label for="password"><input id="password" type="password"  maxlength='20' minlength='6' size="40" name="password">password</label>
 			<div class="btn"><a href="#">Login</a></div>
 		</section>
-
 		<div class="wrap-content">
 			<h2>Lorem ipsum dolor sit amet</h2>
 			<ul class="display-row">
